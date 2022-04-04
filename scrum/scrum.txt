@@ -1,0 +1,10 @@
+SCRUM
+
+processo de desenvolvimento:
+concepcao, analise e design, desemvolvimento, testes e implantacao
+
+gestao de projetos
+
+waterfall - so permite avanço quando fase for finalizada
+agil - soft construido por partes (incremental) e cada parte executa-se em um ciclo (iterativo)
+

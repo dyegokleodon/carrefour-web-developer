@@ -1,0 +1,46 @@
+Intro Git Github
+
+1 - comandos básicos:
+
+listar diretorio - DIR(W) ls(L)
+navegar pastas  - CD
+limpar terminal - cls (w) clear (L)
+criar pastas - mkdir
+criar arquivo - echo nome > nome.txt
+deletar arquivos no windows - del nome ou pasta.. obs. se colocar pasta só deleta o arquivo dentro dela
+deletar repositorio completo windows - rmdir "diretorio" /S /Q
+deletar repositorio linux - rm -rf "diretorio"
+
+
+chave ssh git/github
+
+- github > settings > ssh and gpg keys > add ssh keys
+- gitBash: ssh-keygen -t ed25519 -C email(github)
+
+caminhar até a chave: cd /c/users/usuario/.ssh/
+ls
+cat id_chave.pub
+copiar a chave ssh e colar no github em add new ssh keys
+
+inicializar ssh agent
+eval $(ssh-agent -S)
+
+entregar chave para o agent
+
+ssh-add "chave privada"
+
+
+git add 
+git commit -m "descricao"
+git add origin "url do repo no github"
+git push origin "branch"
+
+
+conflitos no git / github
+
+conflito de merge - quando existem 2 alterações na mesma linha pessoas diferentes. para resolver basta fazer um pull do repo
+git pull origin "branch"
+
+
+clonar repo
+gir clone "URL" - ja vem como repo Git
